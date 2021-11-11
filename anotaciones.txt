@@ -1,0 +1,10 @@
+#781    Padding de botones
+#752
+
+#456    hover de botones
+
+#1158   
+
+btn btn-lg btn-primary
+
+btn btn-lg btn-bd-primary

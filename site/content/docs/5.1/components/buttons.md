@@ -11,13 +11,24 @@ toc: true
 Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.
 
 {{< example >}}
-{{< buttons.inline >}}
+<!-- {{< buttons.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
 <button type="button" class="btn btn-{{ .name }}">{{ .name | title }}</button>
 {{- end -}}
 {{< /buttons.inline >}}
-
+-->
+<button type="button" class="btn btn-primary">Button Primary</button>
+<button type="button" class="btn btn-secondary">Button Secondary</button>
+<button type="button" class="btn btn-st-secondary">Button Secondary</button>
+<button type="button" class="btn btn-success">Button Success</button>
+<button type="button" class="btn btn-danger">Button Danger</button>
+<button type="button" class="btn btn-warning">Button Warning</button>
+<button type="button" class="btn btn-info">Button Info</button>
+<button type="button" class="btn btn-light">Button Light</button>
+<button type="button" class="btn btn-dark">Button Dark</button>
 <button type="button" class="btn btn-link">Link</button>
+
+
 {{< /example >}}
 
 {{< callout info >}}

@@ -24,12 +24,6 @@
     text-decoration: if($link-hover-decoration == underline, none, null);
   }
 
-  .btn-check:focus + &,
-  &:focus {
-    outline: 0;
-    box-shadow: $btn-focus-box-shadow;
-  }
-
   .btn-check:checked + &,
   .btn-check:active + &,
   &:active,
@@ -69,6 +63,16 @@
 }
 // scss-docs-end btn-variant-loops
 
+// nuevos
+
+.btn.btn-st-secondary {
+  color: #ec0000;
+  background-color: #fff;
+  border-color: #ec0000;
+  &:hover{
+    color: #ec0000;
+  }
+}
 
 //
 // Link buttons
