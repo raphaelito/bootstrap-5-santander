@@ -71,6 +71,11 @@
   border-color: #ec0000;
   &:hover{
     color: #ec0000;
+    background: $color-primary-santander-red-5;
+  }
+  &:active{
+    color: #ec0000;
+    background: $color-primary-santander-red-10;
   }
 }
 

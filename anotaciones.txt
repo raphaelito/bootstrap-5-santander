@@ -41,3 +41,7 @@ btn btn-lg btn-bd-primary
       "path": "./dist/css/bootstrap.min.css",
       "maxSize": "23.25 kB"
     }
+
+
+C:\vector\proyectos\ensayos\bootstrap-5-santander\scss\_fonts.scss
+C:\vector\proyectos\ensayos\bootstrap-5-santander\site\assets\fonts\santander\SantanderHeadlineW05-Bold.eot
