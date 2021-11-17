@@ -547,6 +547,7 @@ $border-radius:               1.5rem !default;
 $border-radius-sm:            1rem !default;
 $border-radius-lg:            2rem !default;
 $border-radius-pill:          50rem !default;
+$border-radius-st:            .25rem !default;
 // scss-docs-end border-radius-variables
 
 // scss-docs-start box-shadow-variables
@@ -1467,7 +1468,7 @@ $modal-scale-transform:             scale(1.02) !default;
 $alert-padding-y:               $spacer !default;
 $alert-padding-x:               $spacer !default;
 $alert-margin-bottom:           1rem !default;
-$alert-border-radius:           $border-radius !default;
+$alert-border-radius:           $border-radius-st !default;
 $alert-link-font-weight:        $font-weight-bold !default;
 $alert-border-width:            $border-width !default;
 $alert-bg-scale:                -80% !default;
