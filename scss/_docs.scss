@@ -1,32 +1,41 @@
-
+.bd-layout {
+  grid-template-columns: 1fr 5fr;
+  display: grid;
+  gap: 1.5;
+  grid-template-areas: "sidebar main";
+}
 .bd-toc {
-    position: sticky;
-    top: 5rem;
-    right: 0;
-    z-index: 2;
-    height: subtract(100vh, 7rem);
-    overflow-y: auto;
-    grid-area: toc;
+  position: sticky;
+  top: 5rem;
+  right: 0;
+  z-index: 2;
+  height: subtract(100vh, 7rem);
+  overflow-y: auto;
+  grid-area: toc;
 }
 .bd-sidebar {
-    grid-area: sidebar;
+  grid-area: sidebar;
 }
 .bd-main {
-    grid-template-areas: "intro toc" "content toc";
-    grid-template-columns: 4fr 1fr;
-    grid-template-rows: auto 1fr;
-    display: grid;
-    gap: inherit;
-    grid-template-areas: "intro" "toc" "content";
-    grid-template-rows: auto auto 1fr;
-    grid-area: main;
+  grid-template-areas: "intro toc" "content toc";
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: auto 1fr;
+  display: grid;
+  gap: inherit;
+  grid-area: main;
 }
 .bd-example {
-    padding: 1.5rem;
-    margin-right: 0;
-    margin-left: 0;
-    border-width: 1px;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-    position: relative;
+  position: relative;
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+.bd-links {
+  position: sticky;
+  top: 5rem;
+  display: block;
+  height: calc(100% - 7rem);
+  padding-left: 0.25rem;
+  margin-left: -0.25rem;
+  overflow-y: auto;
 }

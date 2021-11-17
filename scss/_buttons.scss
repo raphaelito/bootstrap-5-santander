@@ -39,11 +39,10 @@
   &.disabled,
   fieldset:disabled & {
     pointer-events: none;
-    //- opacity: $btn-disabled-opacity;
-    background: $color-secondary-neutral-grey-5;
+    background-color: $color-secondary-neutral-grey-5;
+    border: 1px solid $color-secondary-light-grey;
   }
 }
-
 
 //
 // Alternate buttons

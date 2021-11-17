@@ -5,16 +5,16 @@
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 */
 
-// SANTANDER
-@import "fonts";
-@import "docs";
-
 // scss-docs-start import-stack
 // Configuration
 @import "functions";
 @import "variables";
 @import "mixins";
 @import "utilities";
+
+// SANTANDER
+@import "fonts";
+@import "docs";
 
 // Layout & components
 @import "root";
@@ -55,3 +55,4 @@
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
+
