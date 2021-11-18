@@ -91,7 +91,22 @@
   .nav-link.active,
   .show > .nav-link {
     color: $nav-pills-link-active-color;
-    @include gradient-bg($nav-pills-link-active-bg);
+    //@include gradient-bg($nav-pills-link-active-bg);
+    a{
+      position: relative;
+      white-space: nowrap;
+    }
+  }
+  .nav-link.active{
+    &::before {
+      position: absolute;
+      top: .5rem;
+      left: 0;
+      width: .25rem;
+      height: 1.5rem;
+      content: "";
+      background: #c00;
+    }
   }
 }
 
@@ -135,5 +150,10 @@
   }
   > .active {
     display: block;
+  }
+}
+.bg-dark{
+  .nav-link.active{
+    color: $white;
   }
 }
