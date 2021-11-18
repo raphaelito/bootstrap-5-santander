@@ -56,3 +56,7 @@ C:\vector\proyectos\ensayos\bootstrap-5-santander\site\assets\fonts\santander\Sa
       "path": "./dist/js/bootstrap.bundle.min.js",
       "maxSize": "22.75 kB"
     }
+
+
+
+$breadcrumb-color: $color-blue !default;

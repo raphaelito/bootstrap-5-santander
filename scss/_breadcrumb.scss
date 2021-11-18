@@ -22,6 +22,10 @@
     }
   }
 
+  li a {
+    color: $breadcrumb-color;
+  }
+
   &.active {
     color: $breadcrumb-active-color;
   }

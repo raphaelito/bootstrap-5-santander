@@ -13,6 +13,8 @@ $color-primary-santander-red-10: #ffe4e4 !default;
 $color-primary-santander-red-5: #fff1f1 !default;
 $color-secondary-neutral-grey-5: #f6f6f6 !default;
 $color-secondary-light-grey: #ccc !default;
+$color-blue: #36f !default;
+
 // scss-docs-start gray-color-variables
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
@@ -856,7 +858,7 @@ $form-label-color:                      null !default;
 
 // scss-docs-start form-input-variables
 $input-padding-y:                       $input-btn-padding-y !default;
-$input-padding-x:                       $input-btn-padding-x !default;
+$input-padding-x-st:                     .75rem !default;
 $input-font-family:                     $input-btn-font-family !default;
 $input-font-size:                       $input-btn-font-size !default;
 $input-font-weight:                     $font-weight-base !default;
@@ -1181,7 +1183,7 @@ $dropdown-font-size:                $font-size-base !default;
 $dropdown-color:                    $body-color !default;
 $dropdown-bg:                       $white !default;
 $dropdown-border-color:             rgba($black, .15) !default;
-$dropdown-border-radius:            $border-radius !default;
+$dropdown-border-radius:            .75rem !default;
 $dropdown-border-width:             $border-width !default;
 $dropdown-inner-border-radius:      subtract($dropdown-border-radius, $dropdown-border-width) !default;
 $dropdown-divider-bg:               $dropdown-border-color !default;
@@ -1556,6 +1558,7 @@ $breadcrumb-active-color:           $gray-600 !default;
 $breadcrumb-divider:                quote("/") !default;
 $breadcrumb-divider-flipped:        $breadcrumb-divider !default;
 $breadcrumb-border-radius:          null !default;
+$breadcrumb-color:                  $gray-600 !default;
 // scss-docs-end breadcrumb-variables
 
 // Carousel
