@@ -24,6 +24,10 @@
   gap: inherit;
   grid-area: main;
 }
+.bd-content {
+  grid-area: content;
+  min-width: 1px;
+}
 .bd-example {
   position: relative;
   padding: 1.5rem;
