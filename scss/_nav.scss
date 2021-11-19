@@ -97,21 +97,25 @@
       white-space: nowrap;
     }
   }
-  .nav-link.active{
-    position: relative;
-    font-weight: 700;
-    &::before {
-      position: absolute;
-      top: .5rem;
-      left: 0;
-      width: .25rem;
-      height: 1.5rem;
-      content: "";
-      background: #c00;
+}
+
+.nav-sidebar{
+  .nav-pills {
+    .nav-link.active{
+      position: relative;
+      font-weight: 700;
+      &::before {
+        position: absolute;
+        top: .5rem;
+        left: 0;
+        width: .25rem;
+        height: 1.5rem;
+        content: "";
+        background: #c00;
+      }
     }
   }
 }
-
 
 //
 // Justified variants
