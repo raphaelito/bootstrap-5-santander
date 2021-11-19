@@ -83,6 +83,7 @@
 
 .nav-pills {
   .nav-link {
+    font-size: 18px;
     background: none;
     border: 0;
     @include border-radius($nav-pills-border-radius);
@@ -93,11 +94,12 @@
     color: $nav-pills-link-active-color;
     //@include gradient-bg($nav-pills-link-active-bg);
     a{
-      position: relative;
       white-space: nowrap;
     }
   }
   .nav-link.active{
+    position: relative;
+    font-weight: 700;
     &::before {
       position: absolute;
       top: .5rem;

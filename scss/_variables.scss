@@ -556,6 +556,7 @@ $border-radius-sm:            1rem !default;
 $border-radius-lg:            2rem !default;
 $border-radius-pill:          50rem !default;
 $border-radius-st:            .25rem !default;
+$border-radius-xsm:           .5rem !default;
 // scss-docs-end border-radius-variables
 
 // scss-docs-start box-shadow-variables
@@ -740,7 +741,7 @@ $table-border-color:          $color-secondary-neutral-grey-20 !default;
 
 $table-striped-order:         odd !default;
 
-$table-group-separator-color: currentColor !default;
+// $table-group-separator-color: currentColor !default;
 
 $table-caption-color:         $text-muted !default;
 
@@ -1283,7 +1284,7 @@ $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer * .5 !default;
 $card-border-width:                 $border-width !default;
 $card-border-color:                 rgba($black, .125) !default;
-$card-border-radius:                $border-radius !default;
+$card-border-radius:                .5rem !default;
 $card-box-shadow:                   null !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
 $card-cap-padding-y:                $card-spacer-y * .5 !default;
@@ -1340,7 +1341,7 @@ $tooltip-font-size:                 $font-size-sm !default;
 $tooltip-max-width:                 200px !default;
 $tooltip-color:                     $white !default;
 $tooltip-bg:                        $black !default;
-$tooltip-border-radius:             $border-radius !default;
+$tooltip-border-radius:             $border-radius-xsm !default;
 $tooltip-opacity:                   .9 !default;
 $tooltip-padding-y:                 $spacer * .25 !default;
 $tooltip-padding-x:                 $spacer * .5 !default;
@@ -1440,7 +1441,7 @@ $modal-content-color:               null !default;
 $modal-content-bg:                  $white !default;
 $modal-content-border-color:        rgba($black, .2) !default;
 $modal-content-border-width:        $border-width !default;
-$modal-content-border-radius:       $border-radius-lg !default;
+$modal-content-border-radius:       $border-radius-xsm !default;
 $modal-content-inner-border-radius: subtract($modal-content-border-radius, $modal-content-border-width) !default;
 $modal-content-box-shadow-xs:       $box-shadow-sm !default;
 $modal-content-box-shadow-sm-up:    $box-shadow !default;
@@ -1507,7 +1508,7 @@ $list-group-color:                  $gray-900 !default;
 $list-group-bg:                     $white !default;
 $list-group-border-color:           rgba($black, .125) !default;
 $list-group-border-width:           $border-width !default;
-$list-group-border-radius:          $border-radius !default;
+$list-group-border-radius:          .25rem !default;
 
 $list-group-item-padding-y:         $spacer * .5 !default;
 $list-group-item-padding-x:         $spacer !default;

@@ -39,16 +39,13 @@
   > thead {
     vertical-align: bottom;
     th{
-      font-weight: 400;
+      font-size: 12px;
+      font-weight: 700;
       color: $color-primary-accesible-sky;
     }
 
   }
 
-  // Highlight border color between thead, tbody and tfoot.
-  > :not(:first-child) {
-    border-top: (2 * $table-border-width) solid $table-group-separator-color;
-  }
 }
 
 
