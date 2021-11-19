@@ -15,6 +15,7 @@ $color-secondary-neutral-grey-5: #f6f6f6 !default;
 $color-secondary-light-grey: #ccc !default;
 $color-blue: #36f !default;
 $color-secondary-neutral-grey-100: #333 !default;
+$color-primary-medium-sky: #cbdee8 !default;
 
 // scss-docs-start gray-color-variables
 $white:    #fff !default;
@@ -699,7 +700,6 @@ $list-inline-padding:         .5rem !default;
 $mark-bg:                     #fcf8e3 !default;
 // scss-docs-end type-variables
 
-
 // Tables
 //
 // Customizes the `.table` component with basic values, each used across all table variations.
@@ -878,7 +878,7 @@ $input-disabled-bg:                     $gray-200 !default;
 $input-disabled-border-color:           null !default;
 
 $input-color:                           $body-color !default;
-$input-border-color:                    $gray-400 !default;
+$input-border-color:                    $color-primary-medium-sky !default;
 $input-border-width:                    $input-btn-border-width !default;
 $input-box-shadow:                      $box-shadow-inset !default;
 
@@ -926,7 +926,7 @@ $form-check-input-border:                 1px solid rgba($black, .25) !default;
 $form-check-input-border-radius:          .25em !default;
 $form-check-radio-border-radius:          50% !default;
 $form-check-input-focus-border:           $input-focus-border-color !default;
-$form-check-input-focus-box-shadow:       $input-btn-focus-box-shadow !default;
+// $form-check-input-focus-box-shadow:       $input-btn-focus-box-shadow !default;
 
 $form-check-input-checked-color:          $component-active-color !default;
 $form-check-input-checked-bg-color:       $component-active-bg !default;
@@ -1317,7 +1317,7 @@ $accordion-button-active-bg:              tint-color($component-active-bg, 90%) 
 $accordion-button-active-color:           shade-color($primary, 10%) !default;
 
 $accordion-button-focus-border-color:     $input-focus-border-color !default;
-$accordion-button-focus-box-shadow:       $btn-focus-box-shadow !default;
+// $accordion-button-focus-box-shadow:       $btn-focus-box-shadow !default;
 
 $accordion-icon-width:                    1.25rem !default;
 $accordion-icon-color:                    $accordion-button-color !default;
