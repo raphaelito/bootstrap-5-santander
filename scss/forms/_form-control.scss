@@ -14,6 +14,7 @@
   background-color: $input-bg;
   background-clip: padding-box;
   border: $input-border-width solid $input-border-color;
+  border-bottom: 1px solid $color-secondary-neutral-grey-70;
   appearance: none; // Fix appearance for date inputs in Safari
 
   // Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
@@ -34,7 +35,7 @@
   &:focus {
     color: $input-focus-color;
     background-color: $input-focus-bg;
-    border-color: $input-focus-border-color;
+    border-bottom-color: $input-focus-border-color;
     outline: 0;
   }
 

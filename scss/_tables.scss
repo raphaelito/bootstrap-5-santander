@@ -38,6 +38,11 @@
 
   > thead {
     vertical-align: bottom;
+    th{
+      font-weight: 400;
+      color: $color-primary-accesible-sky;
+    }
+
   }
 
   // Highlight border color between thead, tbody and tfoot.

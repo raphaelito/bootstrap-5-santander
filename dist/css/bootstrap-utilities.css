@@ -235,6 +235,7 @@
 }
 
 .sticky-top {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1020;
@@ -242,6 +243,7 @@
 
 @media (min-width: 576px) {
   .sticky-sm-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -249,6 +251,7 @@
 }
 @media (min-width: 768px) {
   .sticky-md-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -256,6 +259,7 @@
 }
 @media (min-width: 992px) {
   .sticky-lg-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -263,6 +267,7 @@
 }
 @media (min-width: 1200px) {
   .sticky-xl-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -270,6 +275,7 @@
 }
 @media (min-width: 1400px) {
   .sticky-xxl-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -472,6 +478,7 @@
 }
 
 .position-sticky {
+  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -1286,27 +1293,27 @@
 }
 
 .fs-1 {
-  font-size: calc(1.5rem + 3vw) !important;
+  font-size: calc(1.3875rem + 1.65vw) !important;
 }
 
 .fs-2 {
-  font-size: calc(1.45rem + 2.4vw) !important;
-}
-
-.fs-3 {
-  font-size: calc(1.425rem + 2.1vw) !important;
-}
-
-.fs-4 {
-  font-size: calc(1.4rem + 1.8vw) !important;
-}
-
-.fs-5 {
   font-size: calc(1.35rem + 1.2vw) !important;
 }
 
+.fs-3 {
+  font-size: calc(1.325rem + 0.9vw) !important;
+}
+
+.fs-4 {
+  font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+.fs-5 {
+  font-size: calc(1.275rem + 0.3vw) !important;
+}
+
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 1.25rem !important;
 }
 
 .fst-italic {
@@ -1580,14 +1587,20 @@
 }
 
 .user-select-all {
+  -webkit-user-select: all !important;
+  -moz-user-select: all !important;
   user-select: all !important;
 }
 
 .user-select-auto {
+  -webkit-user-select: auto !important;
+  -moz-user-select: auto !important;
   user-select: auto !important;
 }
 
 .user-select-none {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
   user-select: none !important;
 }
 
@@ -4912,23 +4925,23 @@
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 3.75rem !important;
+    font-size: 2.625rem !important;
   }
 
   .fs-2 {
-    font-size: 3.25rem !important;
+    font-size: 2.25rem !important;
   }
 
   .fs-3 {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
   }
 
   .fs-4 {
-    font-size: 2.75rem !important;
+    font-size: 1.75rem !important;
   }
 
   .fs-5 {
-    font-size: 2.25rem !important;
+    font-size: 1.5rem !important;
   }
 }
 @media print {

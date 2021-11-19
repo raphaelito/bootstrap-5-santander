@@ -310,52 +310,52 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.5rem + 3vw);
+  font-size: calc(1.3875rem + 1.65vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 3.75rem;
+    font-size: 2.625rem;
   }
 }
 
 h2, .h2 {
-  font-size: calc(1.45rem + 2.4vw);
-}
-@media (min-width: 1200px) {
-  h2, .h2 {
-    font-size: 3.25rem;
-  }
-}
-
-h3, .h3 {
-  font-size: calc(1.425rem + 2.1vw);
-}
-@media (min-width: 1200px) {
-  h3, .h3 {
-    font-size: 3rem;
-  }
-}
-
-h4, .h4 {
-  font-size: calc(1.4rem + 1.8vw);
-}
-@media (min-width: 1200px) {
-  h4, .h4 {
-    font-size: 2.75rem;
-  }
-}
-
-h5, .h5 {
   font-size: calc(1.35rem + 1.2vw);
 }
 @media (min-width: 1200px) {
-  h5, .h5 {
+  h2, .h2 {
     font-size: 2.25rem;
   }
 }
 
+h3, .h3 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  h3, .h3 {
+    font-size: 2rem;
+  }
+}
+
+h4, .h4 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  h4, .h4 {
+    font-size: 1.75rem;
+  }
+}
+
+h5, .h5 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  h5, .h5 {
+    font-size: 1.5rem;
+  }
+}
+
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 p {
@@ -697,68 +697,68 @@ progress {
 }
 
 .display-1 {
-  font-size: calc(1.625rem + 4.5vw);
+  font-size: calc(1.5rem + 3vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-1 {
-    font-size: 5rem;
+    font-size: 3.75rem;
   }
 }
 
 .display-2 {
-  font-size: calc(1.575rem + 3.9vw);
+  font-size: calc(1.4625rem + 2.55vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-2 {
-    font-size: 4.5rem;
+    font-size: 3.375rem;
   }
 }
 
 .display-3 {
-  font-size: calc(1.525rem + 3.3vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-3 {
-    font-size: 4rem;
-  }
-}
-
-.display-4 {
-  font-size: calc(1.475rem + 2.7vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-4 {
-    font-size: 3.5rem;
-  }
-}
-
-.display-5 {
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
-  .display-5 {
+  .display-3 {
     font-size: 3rem;
   }
 }
 
-.display-6 {
+.display-4 {
   font-size: calc(1.375rem + 1.5vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
-  .display-6 {
+  .display-4 {
     font-size: 2.5rem;
+  }
+}
+
+.display-5 {
+  font-size: calc(1.325rem + 0.9vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-5 {
+    font-size: 2rem;
+  }
+}
+
+.display-6 {
+  font-size: calc(1.275rem + 0.3vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-6 {
+    font-size: 1.5rem;
   }
 }
 
@@ -2421,7 +2421,7 @@ progress {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 1.5rem;
+  border-radius: 4px 4px 0 0;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2614,11 +2614,11 @@ textarea.form-control-lg {
 }
 .form-control-color::-moz-color-swatch {
   height: 1.5em;
-  border-radius: 1.5rem;
+  border-radius: 4px 4px 0 0;
 }
 .form-control-color::-webkit-color-swatch {
   height: 1.5em;
-  border-radius: 1.5rem;
+  border-radius: 4px 4px 0 0;
 }
 
 .form-select {
@@ -2636,7 +2636,7 @@ textarea.form-control-lg {
   background-position: left 0.75rem center;
   background-size: 16px 12px;
   border: 1px solid #cbdee8;
-  border-radius: 1.5rem;
+  border-radius: 4px 4px 0 0;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2976,7 +2976,7 @@ textarea.form-control-lg {
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #cbdee8;
-  border-radius: 1.5rem;
+  border-radius: 4px 4px 0 0;
 }
 
 .input-group-lg > .form-control,
@@ -7732,27 +7732,27 @@ textarea.form-control-lg {
 }
 
 .fs-1 {
-  font-size: calc(1.5rem + 3vw) !important;
+  font-size: calc(1.3875rem + 1.65vw) !important;
 }
 
 .fs-2 {
-  font-size: calc(1.45rem + 2.4vw) !important;
-}
-
-.fs-3 {
-  font-size: calc(1.425rem + 2.1vw) !important;
-}
-
-.fs-4 {
-  font-size: calc(1.4rem + 1.8vw) !important;
-}
-
-.fs-5 {
   font-size: calc(1.35rem + 1.2vw) !important;
 }
 
+.fs-3 {
+  font-size: calc(1.325rem + 0.9vw) !important;
+}
+
+.fs-4 {
+  font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+.fs-5 {
+  font-size: calc(1.275rem + 0.3vw) !important;
+}
+
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 1.25rem !important;
 }
 
 .fst-italic {
@@ -11356,23 +11356,23 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 3.75rem !important;
+    font-size: 2.625rem !important;
   }
 
   .fs-2 {
-    font-size: 3.25rem !important;
+    font-size: 2.25rem !important;
   }
 
   .fs-3 {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
   }
 
   .fs-4 {
-    font-size: 2.75rem !important;
+    font-size: 1.75rem !important;
   }
 
   .fs-5 {
-    font-size: 2.25rem !important;
+    font-size: 1.5rem !important;
   }
 }
 @media print {
