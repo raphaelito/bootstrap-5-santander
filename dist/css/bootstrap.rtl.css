@@ -145,6 +145,10 @@
 .bd-sidebar {
   grid-area: sidebar;
 }
+.bd-sidebar ul button {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 
 .bd-main {
   grid-template-areas: "intro toc" "content toc";
@@ -181,10 +185,6 @@
   position: relative;
   display: block;
   float: left;
-}
-
-.list-unstyled li a {
-  margin-right: 50px;
 }
 
 .btn-clipboard {

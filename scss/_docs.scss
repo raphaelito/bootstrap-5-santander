@@ -15,7 +15,14 @@
 }
 .bd-sidebar {
   grid-area: sidebar;
+
+  ul button {
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+
 }
+
 .bd-main {
   grid-template-areas: "intro toc" "content toc";
   grid-template-columns: 4fr 1fr;
@@ -46,11 +53,6 @@
   position: relative;
   display: block;
   float: right;
-}
-.list-unstyled{
-  li a {
-    margin-left: 50px;
-  }
 }
 .btn-clipboard {
   position: absolute;
